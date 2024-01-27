@@ -4,4 +4,5 @@
 
 ## NLP\_RAG
 
-* [PageActive Retrieval Augmented Generation 1](nlp\_rag/pageactive-retrieval-augmented-generation-1.md)
+* [Active Retrieval Augmented Generation](nlp\_rag/active-retrieval-augmented-generation.md)
+* [Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection](nlp\_rag/self-rag-learning-to-retrieve-generate-and-critique-through-self-reflection.md)
