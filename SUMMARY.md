@@ -2,6 +2,10 @@
 
 * [NLP Paper Review](README.md)
 
+## long\_context
+
+* [LongAlign: A Recipe for Long Context Alignment of Large Language Models](long\_context/longalign-a-recipe-for-long-context-alignment-of-large-language-models.md)
+
 ## NLP\_RAG
 
 * [Active Retrieval Augmented Generation](nlp\_rag/active-retrieval-augmented-generation.md)
