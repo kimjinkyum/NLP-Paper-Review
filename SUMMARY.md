@@ -10,6 +10,7 @@
 
 * [Active Retrieval Augmented Generation](nlp\_rag/active-retrieval-augmented-generation.md)
 * [Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection](nlp\_rag/self-rag-learning-to-retrieve-generate-and-critique-through-self-reflection.md)
+* [Improving Text Embeddings with Large Language Models](nlp\_rag/improving-text-embeddings-with-large-language-models.md)
 
 ## Multi Modal
 
