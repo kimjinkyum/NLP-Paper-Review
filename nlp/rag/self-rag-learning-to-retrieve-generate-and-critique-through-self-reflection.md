@@ -1,4 +1,4 @@
-# Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection
+# \[논문 리뷰] Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection
 
 [Arxiv](https://arxiv.org/abs/2310.11511)     [github](https://github.com/AkariAsai/self-rag)
 
@@ -15,7 +15,7 @@
 
 ### Method
 
-<figure><img src="../.gitbook/assets/스크린샷 2024-01-26 오후 4.08.50.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-01-26 오후 4.08.50.png" alt=""><figcaption></figcaption></figure>
 
 #### 전체적인 과정
 
@@ -23,7 +23,7 @@
 2. Top-K 결과에 대해서 문맥에 대한 Relevance(관련성) 평가
 3. 대답을 generation하고 응답 중 가장 좋은 것 선택
 
-<figure><img src="../.gitbook/assets/스크린샷 2024-01-26 오후 4.09.43.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-01-26 오후 4.09.43.png" alt=""><figcaption></figcaption></figure>
 
 #### Inference
 
@@ -36,7 +36,7 @@
 
 #### Training
 
-<figure><img src="../.gitbook/assets/스크린샷 2024-01-26 오후 4.10.25.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-01-26 오후 4.10.25.png" alt=""><figcaption></figcaption></figure>
 
 * RLHF와 비슷하게 align을 하는 작업을 하는데 reward 모델이 아닌 'reflection' token을 통해서 align -> 훨씬더 cost가 저렴함
 * Generation 모델 M을 검색결과와 Critic model C가 예측한 reflection token 가지고 훈련
@@ -48,7 +48,7 @@
 
 ### Experiment
 
-<figure><img src="../.gitbook/assets/스크린샷 2024-01-26 오후 4.11.03.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-01-26 오후 4.11.03.png" alt=""><figcaption></figcaption></figure>
 
 * 바로 RAG사용하는 기본 baseline에 비해 성능이 좋음
 * 또한 chatGPT(훨씬 더 큰 파라메터)랑 유사한 성능

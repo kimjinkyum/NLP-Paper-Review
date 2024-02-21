@@ -1,4 +1,4 @@
-# PageActive Retrieval Augmented Generation 1
+# \[논문리뷰] Active Retrieval Augmented Generation
 
 ### Overview
 
@@ -9,13 +9,13 @@
     * 또한 임계점 방식을 사용하는데 이를 위해서 데이터셋마다 추가 실험이 필요함
     * 일반적인 QA short-answer에 대해서도 성능이 좋아졌는지에 관한 실험은 진행하지 않음.
 
-    <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>FLARE Overview</p></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>FLARE Overview</p></figcaption></figure>
 
 ### Background
 
 ### 기본 RAG(Retrieval-Augment Generation) 구조
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 간단하게 말하자면 LLM에 사용자의 질문을 넣어서 답을 구할때 사용자의 질문만 넣는 것이 아니라 관련된 document를 검색해서 generate 하는 방식
 * 자세한 과정
@@ -45,7 +45,7 @@
 
 #### Question-Decomposition(Self-ASK)
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 질문을 분해해서 Multi-hop 질문을 할 수 있도록…
 * **단점**: Problem (task)에 따라서 대응 / prompt engineering 을 진행해야함
@@ -67,7 +67,7 @@
 
     <div align="left">
 
-    <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
     </div>
 
@@ -98,7 +98,7 @@ Confidence 계산 방법
 
 * 이것도 임계값 기준으로&#x20;
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 1. Implicit query
 
@@ -113,7 +113,7 @@ Confidence 계산 방법
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

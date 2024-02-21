@@ -1,4 +1,4 @@
-# LongAlign: A Recipe for Long Context Alignment of Large Language Models
+# \[논문 리뷰] LongAlign: A Recipe for Long Context Alignment of Large Language Models
 
 ### Overview
 
@@ -31,13 +31,13 @@
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/스크린샷 2024-02-06 오후 4.59.40.png" alt="" width="554"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-06 오후 4.59.40.png" alt="" width="554"><figcaption></figcaption></figure>
 
 </div>
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/스크린샷 2024-02-06 오후 5.02.46.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-06 오후 5.02.46.png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
@@ -49,13 +49,13 @@
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/스크린샷 2024-02-06 오후 5.06.32.png" alt="" width="363"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-06 오후 5.06.32.png" alt="" width="363"><figcaption></figcaption></figure>
 
 </div>
 
 #### Training 방법
 
-<figure><img src="../.gitbook/assets/스크린샷 2024-02-06 오후 5.08.41.png" alt="" width="545"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-06 오후 5.08.41.png" alt="" width="545"><figcaption></figcaption></figure>
 
 #### 1. Packing
 
@@ -69,7 +69,7 @@
 
 * 따라서 이걸 완화해주기위해서 loss를 각 sequence마다 scale을 지진행해서 합침
 
-<figure><img src="../.gitbook/assets/스크린샷 2024-02-06 오후 5.22.25.png" alt="" width="363"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2024-02-06 오후 5.22.25.png" alt="" width="363"><figcaption></figcaption></figure>
 
 #### 2. Sorted batching
 
@@ -83,8 +83,8 @@
 * batch size to 8, resulting in a global batch size of 96
 * 2 epoch
 
-#### Peroformance
+#### Performance
 
-<figure><img src="../.gitbook/assets/스크린샷 2024-02-06 오후 5.27.32.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-### Conclusion
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
